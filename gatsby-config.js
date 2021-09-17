@@ -34,6 +34,8 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
+              withAvif: true,
+              withWebp: true,
               maxWidth: 630,
             },
           },
@@ -51,12 +53,12 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    // {
-    //   resolve: `gatsby-plugin-google-analytics`,
-    //   options: {
-    //     trackingId: `ADD YOUR TRACKING ID HERE`,
-    //   },
-    // },
+     {
+       resolve: `gatsby-plugin-google-analytics`,
+       options: {
+         trackingId: `UA-147090349-10`,
+       },
+     },
     {
       resolve: `gatsby-plugin-feed`,
       options: {
