@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Living Life`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Paul Applegate`,
+      summary: `who lives and works in Ohio building useful things.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: ` Follow my daily hijinks here. There may also be a serious subject like cancer now and then. Fuck cancer.`,
+    siteUrl: `https://gatsbystarterblogbeta59977.gatsbyjs.io/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `papplegate`,
     },
   },
   plugins: [
@@ -126,6 +126,6 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+     `gatsby-plugin-offline`,
   ],
 }
