@@ -23,21 +23,17 @@ const Layout = ({ location, title, children }) => {
     )
   }
 
-return (
-	<div className="global-wrapper" data-is-root-path={isRootPath}>
-		<header className="global-header"><Search indices={searchIndices} />
-{header}
-</header>
-<script src="https://kit.fontawesome.com/96d943cb0f.js" crossorigin="anonymous"></script>
-		<main>{children}</main>
-		<footer>
-			© {new Date().getFullYear()}, Built with
-			{` `}
-			<a href="https://www.gatsbyjs.com">Gatsby</a>
-			<a href="https://gatsbystarterblogbeta59977.gatsbyjs.io/PaulApplegate-B68B5D76-pub"><i class="fa-thin fa-key"></i></a>
-		</footer>
-	</div>
-)
+  return (
+    <div className="global-wrapper" data-is-root-path={isRootPath}>
+      <header className="global-header"><Search indices={searchIndices} />{header}</header>
+      <main>{children}</main>
+      <footer>
+        © {new Date().getFullYear()}, Built with
+        {` `}
+        <a href="https://www.gatsbyjs.com">Gatsby</a>
+      </footer>
+    </div>
+  )
 }
 
 export default Layout
