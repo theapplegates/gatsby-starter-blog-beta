@@ -34,7 +34,7 @@ return (
 			© {new Date().getFullYear()}, Built with
 			{` `}
 			<a href="https://www.gatsbyjs.com">Gatsby</a>
-			<a href="https://gatsbystarterblogbeta59977.gatsbyjs.io/PaulApplegate-B68B5D76-pub"><i class="fa-thin fa-key"></i></a>
+			<a href="https://gatsbystarterblogbeta59977.gatsbyjs.io/PaulApplegate-B68B5D76-pub.asc"><i class="fa-thin fa-key"></i></a>
 		</footer>
 	</div>
 )
