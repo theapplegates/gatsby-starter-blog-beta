@@ -33,8 +33,7 @@ return (
 		<footer>
 			© {new Date().getFullYear()}, Built with
 			{` `}
-			<a href="https://www.gatsbyjs.com">Gatsby</a>
-			<a href="https://gatsbystarterblogbeta59977.gatsbyjs.io/PaulApplegate-B68B5D76-pub.asc"><i class="fa-thin fa-key"></i></a>
+			<a href="https://www.gatsbyjs.com">Gatsby</a>    <a href="https://keybase.io/mrapplegate/pgp_keys.asc?fingerprint=6baa889e776a98666978aec42b09e41ca4faf350">My PGP/GPG key<i class="fa-thin fa-key"></i></a>
 		</footer>
 	</div>
 )
