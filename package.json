@@ -11,7 +11,7 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@styled-icons/fa-solid": "^10.34.0",
     "algoliasearch": "^4.10.5",
-    "gatsby": "^4.0.0-zz-next.1",
+    "gatsby": "next",
     "gatsby-plugin-feed": "^4.0.0-zz-next.1",
     "gatsby-plugin-fontawesome-css": "^1.1.0",
     "gatsby-plugin-gatsby-cloud": "^4.0.0-zz-next.1",
