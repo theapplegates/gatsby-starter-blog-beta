@@ -12,6 +12,14 @@ module.exports = {
     },
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-purgecss`,
+      options: {
+      printRejected: false,
+      develop: false,
+      ignore: ["fontawesome-svg-core/"],
+      },
+      },
     `gatsby-plugin-gatsby-cloud`,
     `gatsby-plugin-fontawesome-css`,
     `gatsby-plugin-image`,
